@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/restrictedobjects",
+	"name": "jordanmkoncz/restrictedobjects",
 	"description": "Provides more advanced permission management for data objects in SilverStripe.",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "permissions"],
@@ -8,6 +8,10 @@
 	{
 		"name": "Marcus Nyeholt",
 		"email": "marcus@silverstripe.com.au"
+	},
+	{
+		"name": "Jordan Koncz",
+		"email": "jordan@celero.com.au"
 	}
 	],
 	"require":
