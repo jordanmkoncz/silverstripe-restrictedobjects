@@ -43,7 +43,7 @@ class AccessAuthority extends DataObject {
 	
 	public function PermList() {
 		if($this->Perms->getValues()){
-			return '<p>'.implode('</p><p>', $this->Perms->getValues()).'</p>';	
+			return implode(', ', $this->Perms->getValues());
 		}
 	}
 	
